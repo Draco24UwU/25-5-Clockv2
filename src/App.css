@@ -1,0 +1,55 @@
+.timer{
+  width: 50%;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button{
+  background-color: transparent;
+  padding: 1rem;
+  border: none;
+}
+
+button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  color: rgb(204, 204, 204);
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.times{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.display{
+  border: 2px solid rgb(44, 44, 44);
+  width: 30%;
+  min-width: 15rem;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2rem 1rem;
+  background-color: rgb(150, 145, 145);
+}
+
+.timer{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
